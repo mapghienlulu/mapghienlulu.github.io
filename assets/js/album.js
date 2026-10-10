@@ -36,6 +36,14 @@ const albums = {
         title: "Favourite moments",
         folder: "assets/images/highlights",
     },
+    frankfurt: {
+        title: "Cuộc sống của chúng mình",
+        folder: "assets/image/frankfurt",
+    },
+    offenbach: {
+        title: "Picnic & life",
+        folder: "assets/images/offenbach",
+    },
     dipFest: {
         title: "Our first date at Dipperness Festival Frankfurt",
         folder: "assets/images/first",
