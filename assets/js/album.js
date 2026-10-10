@@ -36,14 +36,44 @@ const albums = {
         title: "Favourite moments",
         folder: "assets/images/highlights",
     },
-    memories: {
-        title: "Our adventures",
-        folder: "assets/images/memories",
+    DipFest: {
+        title: "Our first date at Dipperness Festival Frankfurt",
+        folder: "assets/images/first",
     },
-    littleMoments: {
-        title: "Little moments",
-        folder: "assets/images/little-moments",
-    }
+    weinheim: {
+        title: "Our first trip together",
+        folder: "assets/images/weinheim",
+    },
+    Marseille: {
+        title: "Beach trip :>",
+        folder: "assets/images/marseille",
+    },
+    
+    Lyon: {
+        title: "Food = life",
+        folder: "assets/images/lyon",
+    },
+        
+    Avignon: {
+        title: "Palais des Papes",
+        folder: "assets/images/avignon",
+    },
+        
+    Paris: {
+        title: "Đúng là thành phố lãng mạn nhất thế giới",
+        folder: "assets/images/paris",
+    },
+
+    
+    Hallstatt: {
+        title: "Công chúaaaaaa",
+        folder: "assets/images/hallstatt",
+    },
+        
+    Cologne: {
+        title: "Lindt Chocolate + Bubble Planet",
+        folder: "assets/images/cologne",
+    },
 };
 
 // HTML elements
