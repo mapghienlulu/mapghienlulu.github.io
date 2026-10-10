@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Mặp ghiền Lulu</title>
+
+<link rel="stylesheet" href="assets/css/album.css">
+<script src="assets/js/album.js" defer></script>
+</head>
+
+<body>
+	<!-- Shown outside the supported screen-width range -->
+	<div class="size-notice">
+		<h1>You cannot view in this format yet. Please try with another
+			device.</h1>
+	</div>
+
+	<!-- Album content -->
+	<div class="album-page">
+		<header>
+			<p class="eyebrow">JUST FOR US</p>
+			<h1>Our Little Adventures &#128151;</h1>
+			<p>Những khoảnh khắc ghi lại.</p>
+
+		</header>
+
+		<main>
+
+			<!--  COUNTER -->
+			<section class="counter">
+				<img class="counter-illustration" src="images/couple.png"
+					alt="A couple embracing">
+
+				<h2>We've been together for</h2>
+
+				<div class="counter-grid" role="timer" aria-label="Time together">
+					<div class="time-box">
+						<span class="time-number" id="days">0</span> <span
+							class="time-label">NGÀY</span>
+					</div>
+
+					<div class="time-box">
+						<span class="time-number" id="hours">00</span> <span
+							class="time-label">GIỜ</span>
+					</div>
+
+					<div class="time-box">
+						<span class="time-number" id="minutes">00</span> <span
+							class="time-label">PHÚT</span>
+					</div>
+
+					<div class="time-box">
+						<span class="time-number" id="seconds">00</span> <span
+							class="time-label">GIÂY</span>
+					</div>
+				</div>
+
+				<p class="counter-footer">and counting. 💕</p>
+			</section>
+			<!--   HIGHLIGHT  -->
+			<!-- Highlight carousel: first photo for now -->
+			<section id="album-viewer" class="highlights">
+				<h2 id="carousel-title">Favourite moments</h2>
+
+				<div class="carousel">
+					<img id="preview-previous" class="side-preview side-preview-left"
+						alt="" aria-hidden="true" draggable="false"> <img
+						id="highlight-photo" class="main-photo"
+						src="images/highlights/1.jpg" alt="Favourite moments — photo 1"
+						draggable="false"> <img id="preview-next"
+						class="side-preview side-preview-right" alt="" aria-hidden="true"
+						draggable="false">
+				</div>
+
+				<div class="carousel-controls">
+					<button id="previous-photo" type="button"
+						aria-label="Previous photo">
+						<svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M14 6 8 12l6 6"></path>
+            </svg>
+					</button>
+
+					<span id="photo-position" aria-live="polite">1 / 2</span>
+
+					<button id="next-photo" type="button" aria-label="Next photo">
+						<svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="m10 6 6 6-6 6"></path>
+            </svg>
+					</button>
+				</div>
+			</section>
+
+			<!--  ALBUMS -->
+			<!-- Album buttons: click behaviour added later -->
+			<section class="albums">
+				<h2>Our albums</h2>
+
+				<div class="album-grid">
+					<button class="album-card" type="button" data-album="highlights">
+						<img src="assets/images/highlights/1.jpg" alt="" loading="lazy">
+						<span>Favourite moments</span>
+					</button>
+
+					<button class="album-card" type="button" data-album="memories">
+						<img src="assets/images/memories/1.jpg" alt="" loading="lazy">
+						<span>Our adventures</span>
+					</button>
+
+					<button class="album-card" type="button" data-album="littleMoments">
+						<img src="images/little-moments/1.jpg" alt="" loading="lazy">
+						<span>Little moments</span>
+					</button>
+				</div>
+			</section>
+
+		</main>
+
+		<footer>
+			<p>Made with love, for us.</p>
+		</footer>
+	</div>
+</body>
+</html>
