@@ -36,7 +36,7 @@ const albums = {
         title: "Favourite moments",
         folder: "assets/images/highlights",
     },
-    DipFest: {
+    dipFest: {
         title: "Our first date at Dipperness Festival Frankfurt",
         folder: "assets/images/first",
     },
@@ -44,33 +44,32 @@ const albums = {
         title: "Our first trip together",
         folder: "assets/images/weinheim",
     },
-    Marseille: {
+    marseille: {
         title: "Beach trip :>",
         folder: "assets/images/marseille",
     },
     
-    Lyon: {
+    lyon: {
         title: "Food = life",
         folder: "assets/images/lyon",
     },
         
-    Avignon: {
+    avignon: {
         title: "Palais des Papes",
         folder: "assets/images/avignon",
     },
         
-    Paris: {
+    paris: {
         title: "Đúng là thành phố lãng mạn nhất thế giới",
         folder: "assets/images/paris",
     },
-
     
-    Hallstatt: {
+    hallstatt: {
         title: "Công chúaaaaaa",
         folder: "assets/images/hallstatt",
     },
         
-    Cologne: {
+    cologne: {
         title: "Lindt Chocolate + Bubble Planet",
         folder: "assets/images/cologne",
     },
