@@ -75,6 +75,7 @@ const albums = {
 		title: "Công chúaaaaaa",
 		folder: "assets/images/hallstatt",
 	},
+	
 	koenigsee: {
 		title: "Lần sau đi lại nhé em",
 		folder: "assets/images/koenigsee",
