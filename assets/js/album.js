@@ -77,7 +77,7 @@ const albums = {
 	},
 	königsee: {
 		title: "Lần sau đi lại nhé em",
-		folder: "assets/images/königsee",
+		folder: "assets/images/koenigsee",
 	},
 
 	cologne: {
@@ -86,7 +86,7 @@ const albums = {
 	},
 	kürbisparadies: {
 		title: "Pumpkinnnnnn",
-		folder: "assets/images/kürbisparadies",
+		folder: "assets/images/kuerbisparadies",
 	},
 };
 
