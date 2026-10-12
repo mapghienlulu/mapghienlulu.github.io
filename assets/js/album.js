@@ -38,7 +38,7 @@ const albums = {
 	},
 	frankfurt: {
 		title: "Cuộc sống của chúng mình",
-		folder: "assets/image/frankfurt",
+		folder: "assets/images/frankfurt",
 	},
 	offenbach: {
 		title: "Picnic & life",
